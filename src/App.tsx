@@ -1,5 +1,6 @@
 import React from "react";
 import { Cell, Column, Table as FixedTable } from "fixed-data-table-2";
+import "fixed-data-table-2/dist/fixed-data-table.css";
 
 export default function App(): JSX.Element {
   const rows = [0, 1, 2];
